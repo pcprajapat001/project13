@@ -16,7 +16,7 @@ export const Landing = () => {
     <BrowserRouter>
       <Card sx={{ bgcolor: "gray" }}>
         <CardContent>
-          <NavList />
+          <NavList /> 
 
           <Routes>
             <Route path="/" element={<Home />} />

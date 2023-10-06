@@ -12,3 +12,6 @@ export const CategoriesItem = ({ item }) => {
     </Grid>
   );
 };
+
+
+

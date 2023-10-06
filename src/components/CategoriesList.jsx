@@ -5,6 +5,7 @@ import { CategoriesItem } from "./CategoriesItem";
 import axios from "axios"; //Default export
 
 export const CategoriesList = () => {
+  
   const [data, setData] = useState([]);
 
   const getData = async () => {
@@ -24,5 +25,5 @@ export const CategoriesList = () => {
         <CategoriesItem item={item} />
       ))}
     </Grid>
-  );
+  ); 
 };
